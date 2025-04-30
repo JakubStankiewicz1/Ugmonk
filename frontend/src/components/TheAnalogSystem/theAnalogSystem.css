@@ -91,10 +91,26 @@
     width: 100%;
 }
 
+.productCardInfoOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
 .productCardTitle {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     color: #333;
+    letter-spacing: -0.4px;
+}
+
+.productCardDescription {
+    font-size: 15px;
+    font-weight: 500;
+    color: #A8A8A8;
+    letter-spacing: -0.1px;
 }
 
 .productCardPrice {
