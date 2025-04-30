@@ -103,45 +103,6 @@
             "leftCornerInfo": "Best Seller",
             "leftCornerInfoColor": "#D9E2C3",
             "rightCornerInfo": "New"
-        },
-        {
-            "id": 1,
-            "Title": "The Analog Complete Kit",
-            "TitleExtra": "(Walnut)",
-            "price": 195.00,
-            "images": [
-                "productImageOne",
-                "productImageTwo"
-            ],
-            "leftCornerInfo": "Best Seller",
-            "leftCornerInfoColor": "#D9E2C3",
-            "rightCornerInfo": "New"
-        },
-        {
-            "id": 1,
-            "Title": "The Analog Complete Kit",
-            "TitleExtra": "(Walnut)",
-            "price": 195.00,
-            "images": [
-                "productImageOne",
-                "productImageTwo"
-            ],
-            "leftCornerInfo": "Best Seller",
-            "leftCornerInfoColor": "#D9E2C3",
-            "rightCornerInfo": "New"
-        },
-        {
-            "id": 1,
-            "Title": "The Analog Complete Kit",
-            "TitleExtra": "(Walnut)",
-            "price": 195.00,
-            "images": [
-                "productImageOne",
-                "productImageTwo"
-            ],
-            "leftCornerInfo": "Best Seller",
-            "leftCornerInfoColor": "#D9E2C3",
-            "rightCornerInfo": "New"
         }
     ]
 }

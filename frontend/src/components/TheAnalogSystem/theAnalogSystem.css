@@ -1,6 +1,6 @@
 .theAnalogSystem {
     width: 100%;
-    height: 1000px;
+    height: 10003px;
 }
 
 .theAnalogSystemContainer {
@@ -22,22 +22,21 @@
     font-size: 44px;
     font-weight: 400;
     line-height: 53px;
-    letter-spacing: -0.6px;
+    letter-spacing: -3.4px;
 }
 
 .theAnalogSystemContainerBottom {
     width: 84%;
     margin-left: auto;
     margin-right: auto;
-    /* background-color: lightcoral; */
-    /* height: 100px; */
     margin-top: 40px;
 }
 
 .theAnalogSystemContainerBottomContainer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 produkty w jednym rzędzie */
-    gap: 20px; /* Odstęp między produktami */
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 15px;
+    row-gap: 20px;
     width: 100%;
 }
 
@@ -54,8 +53,28 @@
 .productCardImage {
     position: relative;
     width: 100%;
-    aspect-ratio: 1; /* Kwadratowy obraz */
+    aspect-ratio: 1;
     overflow: hidden;
+}
+
+.productCardDataLeft {
+    position: absolute;
+    top: 5px;
+    left: 10px;;
+}
+
+.productCardDataLeftContainerText {
+    color: #1A1A1A;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: -0.1px;
+    text-transform: uppercase;
+}
+
+.productCardDataRight {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .productCardImageDefault {
@@ -86,8 +105,6 @@
 
 .productCardInfo {
     margin-top: 10px;
-    /* text-align: center; */
-
     width: 100%;
 }
 
@@ -113,8 +130,49 @@
     letter-spacing: -0.1px;
 }
 
+.productCardInfoTwo {
+    margin-top: 5px;
+}
+
 .productCardPrice {
     font-size: 14px;
     font-weight: 400;
-    color: #666;
+    color: #1A1A1A;
+}
+
+.theAnalogSystemContainerBottomButton {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.theAnalogSystemContainerBottomButtonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFD879;
+    border: 1px solid #2D2F24;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 100px;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.theAnalogSystemContainerBottomButtonContainerText {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 56px;
+    color: #2D2F24;
+}
+
+.homeHeroOverlayTextContainerThreeContainerLeftContainerIcon {
+    color: #2D2F24;
+    width: 20px;
+    height: auto;
 }
