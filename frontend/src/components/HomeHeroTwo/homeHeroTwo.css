@@ -1,0 +1,122 @@
+.homeHeroTwo {
+    width: 100%;
+    position: relative;
+    padding-bottom: 1000px;
+}
+
+.homeHeroTwoContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.homeHeroTwoContainerImage {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeHeroTwoContainerImageOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+.homeHeroTwoContainerImageContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.homeHeroTwoContainerImageContainerImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.homeHeroTwoContainerText {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeHeroTwoContainerTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.homeHeroTwoContainerTextContainerOneTextOne,
+.homeHeroTwoContainerTextContainerOneTextTwo {
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 32px;
+    color: rgb(255, 255, 255);
+}
+
+.homeHeroTwoContainerTextContainerTwo {
+    margin-top: 10px;
+}
+
+.homeHeroTwoContainerTextContainerTwoText {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.homeHeroTwoContainerTextContainerThree {
+    margin-top: 10px;
+}
+
+.homeHeroTwoContainerTextContainerThreeContainer {
+    background-color: #FFD879;
+    border: 1px solid #2D2F24;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.homeHeroTwoContainerTextContainerThreeContainerText {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2D2F24;
+}
+
+.homeHeroTwoContainerTextContainerThreeContainerTextIcon {
+    color: #2D2F24;
+    width: 20px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

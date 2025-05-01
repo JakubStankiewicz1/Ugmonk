@@ -1,12 +1,13 @@
 .theAnalogSystem {
     width: 100%;
-    height: 10003px;
 }
 
 .theAnalogSystemContainer {
     width: 100%;
     display: flex;
     flex-direction: column;
+    background-color: #FFFFFF;
+    padding-bottom: 70px;
 }
 
 .theAnalogSystemContainerTop {
