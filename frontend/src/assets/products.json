@@ -104,5 +104,85 @@
             "leftCornerInfoColor": "#D9E2C3",
             "rightCornerInfo": "New"
         }
+    ],
+    "TheGatherCollectionProducts": [
+        {
+            "id": 1,
+            "Title": "The Complete Gather Collection",
+            "TitleExtra": "(White/Maple)",
+            "price": "799.00-839.00",
+            "images": [
+                "theGatherCollectionImgOne",
+                "theGatherCollectionImgTwo"
+            ],
+            "leftCornerInfo": "Best Seller",
+            "leftCornerInfoColor": "#D9E2C3",
+            "rightCornerInfo": "New"
+        },
+        {
+            "id": 2,
+            "Title": "Gather 1x4 Premium Organizer Set",
+            "TitleExtra": "(White/Maple)",
+            "price": 249.00,
+            "images": [
+                "theGatherCollectionImgThree",
+                "theGatherCollectionImgFour"
+            ],
+            "leftCornerInfo": "Best Seller",
+            "leftCornerInfoColor": "#D9E2C3",
+            "rightCornerInfo": "New"
+        },
+        {
+            "id": 3,
+            "Title": "Gather MagSafe Phone Stand",
+            "TitleExtra": "(1x1 - Black/Walnut)",
+            "price": 89.00,
+            "images": [
+                "theGatherCollectionImgFive",
+                "theGatherCollectionImgSix"
+            ],
+            "leftCornerInfo": "Best Seller",
+            "leftCornerInfoColor": "#D9E2C3",
+            "rightCornerInfo": "New"
+        },
+        {
+            "id": 4,
+            "Title": "Gather MagSafe Phone Stand",
+            "TitleExtra": "(1x1 - Black/Walnut)",
+            "price": 89.00,
+            "images": [
+                "theGatherCollectionImgFive",
+                "theGatherCollectionImgSix"
+            ],
+            "leftCornerInfo": "Best Seller",
+            "leftCornerInfoColor": "#D9E2C3",
+            "rightCornerInfo": "New"
+        },
+        {
+            "id": 5,
+            "Title": "Gather MagSafe Phone Stand",
+            "TitleExtra": "(1x1 - Black/Walnut)",
+            "price": 89.00,
+            "images": [
+                "theGatherCollectionImgFive",
+                "theGatherCollectionImgSix"
+            ],
+            "leftCornerInfo": "Best Seller",
+            "leftCornerInfoColor": "#D9E2C3",
+            "rightCornerInfo": "New"
+        },
+        {
+            "id": 6,
+            "Title": "Gather MagSafe Phone Stand",
+            "TitleExtra": "(1x1 - Black/Walnut)",
+            "price": 89.00,
+            "images": [
+                "theGatherCollectionImgFive",
+                "theGatherCollectionImgSix"
+            ],
+            "leftCornerInfo": "Best Seller",
+            "leftCornerInfoColor": "#D9E2C3",
+            "rightCornerInfo": "New"
+        }
     ]
 }

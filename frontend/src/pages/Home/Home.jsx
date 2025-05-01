@@ -3,6 +3,7 @@ import "./home.css";
 import HomeHero from '../../components/HomeHero/HomeHero';
 import TheAnalogSystem from '../../components/TheAnalogSystem/TheAnalogSystem';
 import HomeHeroTwo from '../../components/HomeHeroTwo/HomeHeroTwo';
+import TheGatherCollection from '../../components/TheGatherCollection/TheGatherCollection';
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <HomeHero />
       <TheAnalogSystem />
       <HomeHeroTwo />
+      <TheGatherCollection />
     </div>
   )
 }
